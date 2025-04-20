@@ -1,3 +1,9 @@
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Dockerized](https://img.shields.io/badge/docker-ready-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+# 🧱 agent-gateway
+
 # 🧱 Agent Token Gateway
 
 A high-performance, Rust-powered access control gateway for agent-based systems.  
