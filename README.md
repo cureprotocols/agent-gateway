@@ -1,6 +1,7 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Dockerized](https://img.shields.io/badge/docker-ready-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+[![Docker Pulls](https://img.shields.io/docker/pulls/cureprotocols/agent-gateway?style=flat-square)](https://hub.docker.com/r/cureprotocols/agent-gateway)
 
 # 🧱 agent-gateway
 
