@@ -1,0 +1,43 @@
+[package]
+name = "agent_token_gateway"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "agent_token_gateway"
+path = "src/lib.rs"
+
+[dependencies]
+# Web framework
+axum = "0.6"
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# JWT validation
+jsonwebtoken = "9.3"
+
+# JSON serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# .env config
+dotenv = "0.15"
+
+# Logging and tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+# HTTP middleware
+tower = "0.4"
+tower-http = { version = "0.4", features = ["request-id", "trace"] }
+
+# HTTP internals
+http = "0.2"
+
+# UUID generation (X-Request-ID)
+uuid = { version = "1.8", features = ["v4"] }
+
+[dev-dependencies]
+# Used for unit/integration testing
+tokio = { version = "1", features = ["full"] }

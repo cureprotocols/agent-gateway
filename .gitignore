@@ -1,0 +1,22 @@
+# === Rust build artifacts ===
+/target/
+**/*.rs.bk
+**/*.swp
+
+# Lockfile should be committed for binaries
+# (You are building an application, not a library)
+#Cargo.lock ← UNCOMMENT THIS LINE to keep it
+
+# === Environment variables ===
+.env
+
+# === IDE + Editor junk ===
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+
+# === OS metadata ===
+.DS_Store
+Thumbs.db
