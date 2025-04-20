@@ -3,8 +3,6 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 [![Docker Pulls](https://img.shields.io/docker/pulls/cureprotocols/agent-gateway?style=flat-square)](https://hub.docker.com/r/cureprotocols/agent-gateway)
 
-# 🧱 agent-gateway
-
 # 🧱 Agent Token Gateway
 
 A high-performance, Rust-powered access control gateway for agent-based systems.  
