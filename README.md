@@ -118,7 +118,9 @@ docker build -t agent-token-gateway .
 ### 🔹 5. Run with Docker
 
 ```bash
-docker run -p 3000:3000 --env-file .env agent-token-gateway
+docker pull cureprotocols/agent-gateway
+docker run -p 3000:3000 --env-file .env cureprotocols/agent-gateway
+The gateway will be live at: http://localhost:3000
 ```
 
 ---
